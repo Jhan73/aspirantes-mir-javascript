@@ -11,3 +11,5 @@ function calculateColor(num){
     }
     return "El color es " + color;
 }
+let num = 2.3;
+Number.isInteger(num)&&num > 0 ? console.log(calculateColor(2)):console.log("ingrese un numero natural");
